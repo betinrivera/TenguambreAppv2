@@ -1,0 +1,655 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0B853121B107050092DBCF /* TipoComida.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B853021B107050092DBCF /* TipoComida.swift */; };
+		3D0B853321B107C50092DBCF /* Datos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B853221B107C50092DBCF /* Datos.swift */; };
+		3D0B853521B109730092DBCF /* CeldaComidas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B853421B109730092DBCF /* CeldaComidas.swift */; };
+		3D0B853721B1135F0092DBCF /* RestauranteController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B853621B1135F0092DBCF /* RestauranteController.swift */; };
+		3D0B853921B113D00092DBCF /* DatosRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B853821B113D00092DBCF /* DatosRestaurante.swift */; };
+		3D0B853B21B114230092DBCF /* Restaurantes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B853A21B114230092DBCF /* Restaurantes.swift */; };
+		3D0B853D21B11A9A0092DBCF /* CeldaRestaurante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B853C21B11A9A0092DBCF /* CeldaRestaurante.swift */; };
+		3D0B853F21B126BF0092DBCF /* DatosTemporales.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0B853E21B126BF0092DBCF /* DatosTemporales.swift */; };
+		3D47188021AE2D8700A1490D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47187F21AE2D8700A1490D /* AppDelegate.swift */; };
+		3D47188221AE2D8700A1490D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47188121AE2D8700A1490D /* ViewController.swift */; };
+		3D47188521AE2D8800A1490D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D47188321AE2D8800A1490D /* Main.storyboard */; };
+		3D47188721AE2D8A00A1490D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D47188621AE2D8A00A1490D /* Assets.xcassets */; };
+		3D47188A21AE2D8A00A1490D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D47188821AE2D8A00A1490D /* LaunchScreen.storyboard */; };
+		3D47189521AE2D8A00A1490D /* TenguambreAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47189421AE2D8A00A1490D /* TenguambreAppTests.swift */; };
+		3D4718A021AE2D8A00A1490D /* TenguambreAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D47189F21AE2D8A00A1490D /* TenguambreAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D47189121AE2D8A00A1490D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D47187421AE2D8700A1490D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D47187B21AE2D8700A1490D;
+			remoteInfo = TenguambreApp;
+		};
+		3D47189C21AE2D8A00A1490D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D47187421AE2D8700A1490D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D47187B21AE2D8700A1490D;
+			remoteInfo = TenguambreApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D0B853021B107050092DBCF /* TipoComida.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipoComida.swift; sourceTree = "<group>"; };
+		3D0B853221B107C50092DBCF /* Datos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Datos.swift; sourceTree = "<group>"; };
+		3D0B853421B109730092DBCF /* CeldaComidas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaComidas.swift; sourceTree = "<group>"; };
+		3D0B853621B1135F0092DBCF /* RestauranteController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestauranteController.swift; sourceTree = "<group>"; };
+		3D0B853821B113D00092DBCF /* DatosRestaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosRestaurante.swift; sourceTree = "<group>"; };
+		3D0B853A21B114230092DBCF /* Restaurantes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurantes.swift; sourceTree = "<group>"; };
+		3D0B853C21B11A9A0092DBCF /* CeldaRestaurante.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaRestaurante.swift; sourceTree = "<group>"; };
+		3D0B853E21B126BF0092DBCF /* DatosTemporales.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatosTemporales.swift; sourceTree = "<group>"; };
+		3D47187C21AE2D8700A1490D /* TenguambreApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenguambreApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D47187F21AE2D8700A1490D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D47188121AE2D8700A1490D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3D47188421AE2D8800A1490D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D47188621AE2D8A00A1490D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D47188921AE2D8A00A1490D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D47188B21AE2D8A00A1490D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D47189021AE2D8A00A1490D /* TenguambreAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenguambreAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D47189421AE2D8A00A1490D /* TenguambreAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenguambreAppTests.swift; sourceTree = "<group>"; };
+		3D47189621AE2D8A00A1490D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D47189B21AE2D8A00A1490D /* TenguambreAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TenguambreAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D47189F21AE2D8A00A1490D /* TenguambreAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TenguambreAppUITests.swift; sourceTree = "<group>"; };
+		3D4718A121AE2D8A00A1490D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D47187921AE2D8700A1490D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D47188D21AE2D8A00A1490D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D47189821AE2D8A00A1490D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D0B852B21B0E4A00092DBCF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D47188621AE2D8A00A1490D /* Assets.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3D0B852C21B0E4AA0092DBCF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3D47188B21AE2D8A00A1490D /* Info.plist */,
+				3D47187F21AE2D8700A1490D /* AppDelegate.swift */,
+			);
+			name = App;
+			sourceTree = "<group>";
+		};
+		3D0B852D21B0E4B10092DBCF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3D47188121AE2D8700A1490D /* ViewController.swift */,
+				3D0B853421B109730092DBCF /* CeldaComidas.swift */,
+				3D0B853621B1135F0092DBCF /* RestauranteController.swift */,
+				3D0B853C21B11A9A0092DBCF /* CeldaRestaurante.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3D0B852E21B0E4BB0092DBCF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3D47188321AE2D8800A1490D /* Main.storyboard */,
+				3D47188821AE2D8A00A1490D /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3D0B852F21B0E4C10092DBCF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D0B853021B107050092DBCF /* TipoComida.swift */,
+				3D0B853221B107C50092DBCF /* Datos.swift */,
+				3D0B853821B113D00092DBCF /* DatosRestaurante.swift */,
+				3D0B853A21B114230092DBCF /* Restaurantes.swift */,
+				3D0B853E21B126BF0092DBCF /* DatosTemporales.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3D47187321AE2D8700A1490D = {
+			isa = PBXGroup;
+			children = (
+				3D47187E21AE2D8700A1490D /* TenguambreApp */,
+				3D47189321AE2D8A00A1490D /* TenguambreAppTests */,
+				3D47189E21AE2D8A00A1490D /* TenguambreAppUITests */,
+				3D47187D21AE2D8700A1490D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D47187D21AE2D8700A1490D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D47187C21AE2D8700A1490D /* TenguambreApp.app */,
+				3D47189021AE2D8A00A1490D /* TenguambreAppTests.xctest */,
+				3D47189B21AE2D8A00A1490D /* TenguambreAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D47187E21AE2D8700A1490D /* TenguambreApp */ = {
+			isa = PBXGroup;
+			children = (
+				3D0B852F21B0E4C10092DBCF /* Models */,
+				3D0B852E21B0E4BB0092DBCF /* Views */,
+				3D0B852D21B0E4B10092DBCF /* ViewControllers */,
+				3D0B852C21B0E4AA0092DBCF /* App */,
+				3D0B852B21B0E4A00092DBCF /* Resources */,
+			);
+			path = TenguambreApp;
+			sourceTree = "<group>";
+		};
+		3D47189321AE2D8A00A1490D /* TenguambreAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D47189421AE2D8A00A1490D /* TenguambreAppTests.swift */,
+				3D47189621AE2D8A00A1490D /* Info.plist */,
+			);
+			path = TenguambreAppTests;
+			sourceTree = "<group>";
+		};
+		3D47189E21AE2D8A00A1490D /* TenguambreAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3D47189F21AE2D8A00A1490D /* TenguambreAppUITests.swift */,
+				3D4718A121AE2D8A00A1490D /* Info.plist */,
+			);
+			path = TenguambreAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D47187B21AE2D8700A1490D /* TenguambreApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4718A421AE2D8A00A1490D /* Build configuration list for PBXNativeTarget "TenguambreApp" */;
+			buildPhases = (
+				3D47187821AE2D8700A1490D /* Sources */,
+				3D47187921AE2D8700A1490D /* Frameworks */,
+				3D47187A21AE2D8700A1490D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TenguambreApp;
+			productName = TenguambreApp;
+			productReference = 3D47187C21AE2D8700A1490D /* TenguambreApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D47188F21AE2D8A00A1490D /* TenguambreAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4718A721AE2D8A00A1490D /* Build configuration list for PBXNativeTarget "TenguambreAppTests" */;
+			buildPhases = (
+				3D47188C21AE2D8A00A1490D /* Sources */,
+				3D47188D21AE2D8A00A1490D /* Frameworks */,
+				3D47188E21AE2D8A00A1490D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D47189221AE2D8A00A1490D /* PBXTargetDependency */,
+			);
+			name = TenguambreAppTests;
+			productName = TenguambreAppTests;
+			productReference = 3D47189021AE2D8A00A1490D /* TenguambreAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3D47189A21AE2D8A00A1490D /* TenguambreAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D4718AA21AE2D8A00A1490D /* Build configuration list for PBXNativeTarget "TenguambreAppUITests" */;
+			buildPhases = (
+				3D47189721AE2D8A00A1490D /* Sources */,
+				3D47189821AE2D8A00A1490D /* Frameworks */,
+				3D47189921AE2D8A00A1490D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D47189D21AE2D8A00A1490D /* PBXTargetDependency */,
+			);
+			name = TenguambreAppUITests;
+			productName = TenguambreAppUITests;
+			productReference = 3D47189B21AE2D8A00A1490D /* TenguambreAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D47187421AE2D8700A1490D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					3D47187B21AE2D8700A1490D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3D47188F21AE2D8A00A1490D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3D47187B21AE2D8700A1490D;
+					};
+					3D47189A21AE2D8A00A1490D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3D47187B21AE2D8700A1490D;
+					};
+				};
+			};
+			buildConfigurationList = 3D47187721AE2D8700A1490D /* Build configuration list for PBXProject "TenguambreApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D47187321AE2D8700A1490D;
+			productRefGroup = 3D47187D21AE2D8700A1490D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D47187B21AE2D8700A1490D /* TenguambreApp */,
+				3D47188F21AE2D8A00A1490D /* TenguambreAppTests */,
+				3D47189A21AE2D8A00A1490D /* TenguambreAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D47187A21AE2D8700A1490D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D47188A21AE2D8A00A1490D /* LaunchScreen.storyboard in Resources */,
+				3D47188721AE2D8A00A1490D /* Assets.xcassets in Resources */,
+				3D47188521AE2D8800A1490D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D47188E21AE2D8A00A1490D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D47189921AE2D8A00A1490D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D47187821AE2D8700A1490D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D0B853D21B11A9A0092DBCF /* CeldaRestaurante.swift in Sources */,
+				3D0B853721B1135F0092DBCF /* RestauranteController.swift in Sources */,
+				3D47188221AE2D8700A1490D /* ViewController.swift in Sources */,
+				3D0B853321B107C50092DBCF /* Datos.swift in Sources */,
+				3D0B853921B113D00092DBCF /* DatosRestaurante.swift in Sources */,
+				3D0B853121B107050092DBCF /* TipoComida.swift in Sources */,
+				3D47188021AE2D8700A1490D /* AppDelegate.swift in Sources */,
+				3D0B853F21B126BF0092DBCF /* DatosTemporales.swift in Sources */,
+				3D0B853B21B114230092DBCF /* Restaurantes.swift in Sources */,
+				3D0B853521B109730092DBCF /* CeldaComidas.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D47188C21AE2D8A00A1490D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D47189521AE2D8A00A1490D /* TenguambreAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D47189721AE2D8A00A1490D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D4718A021AE2D8A00A1490D /* TenguambreAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D47189221AE2D8A00A1490D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D47187B21AE2D8700A1490D /* TenguambreApp */;
+			targetProxy = 3D47189121AE2D8A00A1490D /* PBXContainerItemProxy */;
+		};
+		3D47189D21AE2D8A00A1490D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D47187B21AE2D8700A1490D /* TenguambreApp */;
+			targetProxy = 3D47189C21AE2D8A00A1490D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D47188321AE2D8800A1490D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D47188421AE2D8800A1490D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D47188821AE2D8A00A1490D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D47188921AE2D8A00A1490D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D4718A221AE2D8A00A1490D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D4718A321AE2D8A00A1490D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D4718A521AE2D8A00A1490D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TenguambreApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.TenguambreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D4718A621AE2D8A00A1490D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TenguambreApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.TenguambreApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3D4718A821AE2D8A00A1490D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TenguambreAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.TenguambreAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TenguambreApp.app/TenguambreApp";
+			};
+			name = Debug;
+		};
+		3D4718A921AE2D8A00A1490D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TenguambreAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.TenguambreAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TenguambreApp.app/TenguambreApp";
+			};
+			name = Release;
+		};
+		3D4718AB21AE2D8A00A1490D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TenguambreAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.TenguambreAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TenguambreApp;
+			};
+			name = Debug;
+		};
+		3D4718AC21AE2D8A00A1490D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TenguambreAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.TenguambreAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TenguambreApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D47187721AE2D8700A1490D /* Build configuration list for PBXProject "TenguambreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4718A221AE2D8A00A1490D /* Debug */,
+				3D4718A321AE2D8A00A1490D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4718A421AE2D8A00A1490D /* Build configuration list for PBXNativeTarget "TenguambreApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4718A521AE2D8A00A1490D /* Debug */,
+				3D4718A621AE2D8A00A1490D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4718A721AE2D8A00A1490D /* Build configuration list for PBXNativeTarget "TenguambreAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4718A821AE2D8A00A1490D /* Debug */,
+				3D4718A921AE2D8A00A1490D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D4718AA21AE2D8A00A1490D /* Build configuration list for PBXNativeTarget "TenguambreAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D4718AB21AE2D8A00A1490D /* Debug */,
+				3D4718AC21AE2D8A00A1490D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D47187421AE2D8700A1490D /* Project object */;
+}
